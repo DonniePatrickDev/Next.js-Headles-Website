@@ -1,0 +1,35 @@
+.title {
+  @apply text-purple-dark text-3xl font-bold mb-8;
+}
+
+.surveys {
+  @apply max-w-3xl mx-auto px-4 py-8;
+}
+
+.survey {
+  .surveyInner {
+    @apply flex items-center bg-white px-6 py-3 mb-4 rounded cursor-pointer;
+  }
+
+  .surveyCircle {
+    @apply w-3 h-3 border border-gray-400 rounded-full;
+  }
+
+  .surveyName {
+    @apply px-4 font-semibold text-gray-dark;
+  }
+
+  &.active {
+    .surveyInner {
+      @apply bg-purple-light;
+    }
+
+    .surveyCircle {
+      @apply border-4 border-purple;
+    }
+
+    .surveyName {
+      @apply text-purple;
+    }
+  }
+}

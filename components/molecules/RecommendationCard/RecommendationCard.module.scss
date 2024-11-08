@@ -1,0 +1,31 @@
+.root {
+  @apply relative h-full w-full bg-black bg-opacity-20;
+
+  &:hover {
+    @apply bg-purple-dark bg-opacity-40;
+  }
+}
+
+.wrap {
+  @apply flex flex-col justify-between w-full h-full;
+}
+
+.top {
+  @apply p-3 h-60;
+}
+
+.tags {
+  @apply flex flex-wrap gap-2;
+}
+
+.title {
+  @apply block text-dark font-bold text-lg mt-3 mb-6;
+}
+
+.bottom {
+  @apply p-3 md:p-5 bg-white;
+}
+
+.meta {
+  @apply flex flex-col md:flex-row justify-between;
+}

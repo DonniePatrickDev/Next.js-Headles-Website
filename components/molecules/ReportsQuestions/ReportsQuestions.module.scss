@@ -1,0 +1,19 @@
+.title {
+  @apply text-xl font-bold mb-4;
+}
+
+.questions {
+  @apply rounded shadow overflow-hidden;
+}
+
+.question {
+  @apply bg-white flex px-4 py-5 cursor-pointer border-b border-t border-gray-200 mb-3;
+
+  .questionCheck {
+    @apply w-1/5 flex items-center mx-2;
+  }
+
+  &.active {
+    @apply bg-purple-light;
+  }
+}

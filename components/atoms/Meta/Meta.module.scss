@@ -1,0 +1,31 @@
+.root {
+  @apply md:flex mb-3 md:mb-0;
+
+  &.purple .meta {
+    @apply text-purple;
+  }
+
+  &.dark .meta {
+    @apply text-dark;
+  }
+
+  &.white .meta {
+    @apply text-white;
+  }
+
+  &.fullWidth {
+    @apply w-full justify-between;
+  }
+}
+
+.meta {
+  @apply text-sm font-normal flex items-center md:mr-4 mb-2 md:mb-0;
+
+  &.showDot {
+    @apply font-semibold;
+  }
+}
+
+.dot {
+  @apply mr-3;
+}

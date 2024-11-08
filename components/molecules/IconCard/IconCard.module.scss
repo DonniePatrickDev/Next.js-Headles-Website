@@ -1,0 +1,77 @@
+.root {
+  @apply relative shadow-sm h-full;
+}
+
+.wrap {
+  @apply h-full;
+
+  &.primary {
+    @apply p-5;
+
+    .title {
+      @apply text-white;
+    }
+
+    .text {
+      @apply text-white;
+    }
+
+    .image {
+      @apply mb-3;
+    }
+  }
+
+  &.secondary {
+    @apply p-5;
+
+    &:hover {
+      @apply bg-purple-light;
+    }
+
+    .image {
+      @apply mb-3;
+    }
+  }
+
+  &.tertiary {
+    @apply bg-white;
+
+    .main {
+      @apply flex items-start gap-4 px-6 py-4;
+    }
+
+    &:hover {
+      @apply bg-purple-light;
+
+      .title {
+        @apply text-purple;
+      }
+
+      .text {
+        @apply text-purple;
+      }
+    }
+
+    .button {
+      @apply my-4;
+    }
+  }
+
+  &:hover {
+    .pathIcon {
+      @apply block;
+    }
+  }
+
+  .pathIcon {
+    @apply hidden;
+  }
+}
+
+.title {
+  @apply mb-2 text-lg font-semibold flex items-center justify-between;
+}
+
+.text {
+  @apply text-base;
+}

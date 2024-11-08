@@ -1,0 +1,17 @@
+.image {
+  & img {
+    @apply block;
+  }
+
+  &.hasImageFill {
+    @apply mb-0;
+  }
+
+  & .imageFill {
+    @apply object-cover;
+  }
+}
+
+.link {
+  @apply flex;
+}

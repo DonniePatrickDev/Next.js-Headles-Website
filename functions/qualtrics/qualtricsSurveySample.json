@@ -1,0 +1,1082 @@
+{
+  "SurveyEntry": {
+    "SurveyID": "SV_aaaaAAAA000011",
+    "SurveyName": "MJ Test 4",
+    "SurveyDescription": null,
+    "SurveyOwnerID": "UR_bHDkDzZinclyJZs",
+    "SurveyBrandID": "digitalhealthmw",
+    "DivisionID": null,
+    "SurveyLanguage": "EN",
+    "SurveyActiveResponseSet": "RS_0ptAxle2WCIqYey",
+    "SurveyStatus": "Inactive",
+    "SurveyStartDate": "0000-00-00 00:00:00",
+    "SurveyExpirationDate": "0000-00-00 00:00:00",
+    "SurveyCreationDate": "2022-03-02 00:00:22",
+    "CreatorID": "UR_bHDkDzZinclyJZs",
+    "LastModified": "2022-03-02 01:29:44",
+    "LastAccessed": "0000-00-00 00:00:00",
+    "LastActivated": "0000-00-00 00:00:00",
+    "Deleted": null
+  },
+  "SurveyElements": [
+    {
+      "SurveyID": "SV_2612o6mFSHcFojk",
+      "Element": "BL",
+      "PrimaryAttribute": "Survey Blocks",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": null,
+      "Payload": {
+        "1": {
+          "BlockElements": [],
+          "Description": "Trash / Unused Questions",
+          "ID": "BL_3guR0F0lGVfF5tj",
+          "Options": {
+            "BlockLocking": "false",
+            "BlockVisibility": "Expanded",
+            "RandomizeQuestions": "false"
+          },
+          "Type": "Trash"
+        },
+        "3": {
+          "BlockElements": [
+            {
+              "QuestionID": "QID42",
+              "Type": "Question"
+            },
+            {
+              "Type": "Page Break"
+            },
+            {
+              "QuestionID": "QID43",
+              "Type": "Question"
+            }
+          ],
+          "Description": "Relationship NPS",
+          "ID": "BL_9z6tnZPkYBL62LH",
+          "Options": {
+            "BlockLocking": "false",
+            "BlockVisibility": "Expanded",
+            "RandomizeQuestions": "false"
+          },
+          "SubType": "",
+          "Type": "Standard"
+        },
+        "6": {
+          "BlockElements": [
+            {
+              "QuestionID": "QID36",
+              "Type": "Question"
+            }
+          ],
+          "Description": "Improvement Suggestion",
+          "ID": "BL_0ijSd5XY4gJbogd",
+          "SubType": "",
+          "Type": "Standard"
+        },
+        "7": {
+          "BlockElements": [
+            {
+              "QuestionID": "QID45",
+              "Type": "Question"
+            },
+            {
+              "Type": "Page Break"
+            },
+            {
+              "QuestionID": "QID46",
+              "Type": "Question"
+            }
+          ],
+          "Description": "Product quality Importance and Satisfaction",
+          "ID": "BL_9uZsNkfstasQRI0",
+          "Options": {
+            "BlockLocking": "false",
+            "Looping": "None",
+            "LoopingOptions": null,
+            "RandomizeQuestions": "false"
+          },
+          "SubType": "",
+          "Type": "Standard"
+        },
+        "8": {
+          "BlockElements": [
+            {
+              "QuestionID": "QID47",
+              "Type": "Question"
+            },
+            {
+              "Type": "Page Break"
+            },
+            {
+              "QuestionID": "QID48",
+              "Type": "Question"
+            }
+          ],
+          "Description": "Customer support Importance and Satisfaction",
+          "ID": "BL_9uZsNkfstasQRI1",
+          "Options": {
+            "BlockLocking": "false",
+            "Looping": "None",
+            "LoopingOptions": null,
+            "RandomizeQuestions": "false"
+          },
+          "SubType": "",
+          "Type": "Standard"
+        },
+        "9": {
+          "BlockElements": [
+            {
+              "QuestionID": "QID49",
+              "Type": "Question"
+            },
+            {
+              "Type": "Page Break"
+            },
+            {
+              "QuestionID": "QID50",
+              "Type": "Question"
+            }
+          ],
+          "Description": "Brand reputation Importance and Satisfaction",
+          "ID": "BL_9uZsNkfstasQRI2",
+          "Options": {
+            "BlockLocking": "false",
+            "Looping": "None",
+            "LoopingOptions": null,
+            "RandomizeQuestions": "false"
+          },
+          "SubType": "",
+          "Type": "Standard"
+        },
+        "10": {
+          "BlockElements": [
+            {
+              "QuestionID": "QID51",
+              "Type": "Question"
+            },
+            {
+              "Type": "Page Break"
+            },
+            {
+              "QuestionID": "QID52",
+              "Type": "Question"
+            }
+          ],
+          "Description": "Purchasing experience Importance and Satisfaction",
+          "ID": "BL_9uZsNkfstasQRI3",
+          "Options": {
+            "BlockLocking": "false",
+            "Looping": "None",
+            "LoopingOptions": null,
+            "RandomizeQuestions": "false"
+          },
+          "SubType": "",
+          "Type": "Standard"
+        },
+        "11": {
+          "BlockElements": [
+            {
+              "QuestionID": "QID53",
+              "Type": "Question"
+            },
+            {
+              "Type": "Page Break"
+            },
+            {
+              "QuestionID": "QID54",
+              "Type": "Question"
+            }
+          ],
+          "Description": "Interaction(s) with employees Importance and Satisfaction",
+          "ID": "BL_9uZsNkfstasQRI4",
+          "Options": {
+            "BlockLocking": "false",
+            "Looping": "None",
+            "LoopingOptions": null,
+            "RandomizeQuestions": "false"
+          },
+          "SubType": "",
+          "Type": "Standard"
+        }
+      }
+    },
+    {
+      "SurveyID": "SV_2612o6mFSHcFojk",
+      "Element": "SO",
+      "PrimaryAttribute": "Survey Options",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": null,
+      "Payload": {
+        "ActiveResponseSet": null,
+        "AnonymizeResponse": "No",
+        "Autoadvance": "false",
+        "AutoadvancePages": "false",
+        "Autofocus": "false",
+        "AvailableLanguages": {
+          "EN": []
+        },
+        "BackButton": "false",
+        "BallotBoxStuffingPrevention": "true",
+        "CollectGeoLocation": "false",
+        "CustomStyles": {
+          "altRowStyles": {
+            "selector": ".Skin .ReadableAlt, .Skin .LightBG",
+            "styles": {
+              "backgroundColor": null
+            }
+          },
+          "borderStyles": {
+            "selector": ".Skin .CS .horizontalbar table.sliderGrid tr.xlabel th, .Skin .CS .horizontalbar .ylabel, .Skin .CS .horizontalbar table.sliderGrid tr td.value, .Skin .Slider .horizontalbar table.sliderGrid tr.xlabel th, .Skin .BorderColor, .Skin .DarkBorderColor, .Skin .Slider .horizontalbar table.sliderGrid tr td.value, .Skin thead, .Skin .GAP .ChoiceStructure thead th  ",
+            "styles": {
+              "borderColor": null
+            }
+          },
+          "choiceStyles": {
+            "selector": ".Skin .horizontalbar th.ylabel, .Skin .Matrix table td, .Skin .Matrix table th, .Skin .Matrix table thead th, .Skin .Matrix table thead td, .Skin .PGR .DragAndDrop .Items label, .Skin .QuestionBody ul.ChoiceStructure, .Skin .PGR .DragAndDrop .Group ul, .Skin .PGR .DragAndDrop .Group h2, .Skin .PGR .DragAndDrop .Items ul, .Skin .PGR .DragAndDrop .Items h2, .Skin .DD .QuestionBody table.ChoiceStructure, .Skin .PGR .DragAndDrop .NoColumns td.groupsContainerTd div ul, .Skin .PGR .DragAndDrop .NoColumns td.groupsContainerTd div h2, .Skin .SBS thead th, .Skin .SBS td, .Skin .SBS .Answers td, .Skin .SBS .Answers th, .SBS table.ChoiceStructure, .Skin .horizontalbar thead table.LabelDescriptions tr td, .Skin .horizontalbar thead tr td.NotApplicable, .QuestionBody th, .Skin .QuestionBody .MC .MAVR label, .Skin .QuestionBody .MC .SAVR label, .Skin .SBS thead th, .Skin .SBS td, .Skin .RO .DND ul li, .Skin .reg, .SkinInner .ChoiceStructure, .Skin thead, .Skin .GAP .ChoiceStructure thead th, .Skin .GAP .ChoiceStructure .c4, .Skin .GAP .ChoiceStructure th, .Skin .GAP .ChoiceStructure .WhyText, .SkinInner .ChoiceStructure .LightBG, .Skin .QuestionOuter.Highlight .Inner .reg, .Skin .QuestionOuter.Highlight .Inner .alt, .Skin .QuestionOuter.Highlight .Inner .ReadableAlt       ",
+            "styles": {
+              "color": null,
+              "fontFamily": null,
+              "fontSize": null,
+              "fontStyle": null,
+              "fontWeight": null,
+              "textDecoration": null
+            }
+          },
+          "customCSS": null,
+          "errorStyles": {
+            "selector": ".Skin .ValidationError",
+            "styles": {
+              "backgroundColor": null,
+              "borderColor": null,
+              "color": null
+            }
+          },
+          "errorStylesBG": {
+            "selector": ".Skin .HeaderValidationError, .Skin .HeaderValidationError li a",
+            "styles": {
+              "backgroundColor": null,
+              "color": null
+            }
+          },
+          "footerStyles": {
+            "selector": ".Skin #Footer",
+            "styles": {
+              "color": null
+            }
+          },
+          "headerStyles": {
+            "selector": ".Skin div#Header",
+            "styles": {
+              "color": null
+            }
+          },
+          "highlightStyles": {
+            "selector": ".Skin .QuestionOuter.Highlight .Inner, .Skin .QuestionOuter.Highlight .Inner .reg, .Skin .QuestionOuter.Highlight .Inner .alt, .Skin .QuestionOuter.Highlight .Inner .ReadableAlt",
+            "styles": {
+              "backgroundColor": null
+            }
+          },
+          "highlightStylesAlt": {
+            "selector": ".Skin .QuestionOuter.Highlight .Inner .ReadableAlt, .Skin .QuestionOuter.Highlight .Inner .LightBG",
+            "styles": {
+              "backgroundColor": null
+            }
+          },
+          "pageStyles": {
+            "selector": "#SurveyEngineBody",
+            "styles": {
+              "backgroundColor": null
+            }
+          },
+          "questionSeparatorStyles": {
+            "selector": ".Skin .Separator",
+            "styles": {
+              "backgroundColor": null,
+              "display": null
+            }
+          },
+          "questionStyles": {
+            "selector": ".Skin .QuestionText",
+            "styles": {
+              "color": null,
+              "fontFamily": null,
+              "fontSize": null,
+              "fontStyle": null,
+              "fontWeight": null,
+              "textDecoration": null
+            }
+          },
+          "textEntryStyles": {
+            "selector": ".Skin select, .Skin .InputText",
+            "styles": {
+              "color": null
+            }
+          },
+          "textStyles": {
+            "selector": ".SkinInner",
+            "styles": {
+              "color": null,
+              "fontFamily": null,
+              "fontSize": null,
+              "fontStyle": null,
+              "fontWeight": null,
+              "textDecoration": null
+            }
+          }
+        },
+        "EOSMessage": "",
+        "EOSMessageLibrary": "",
+        "EOSRedirectURL": "https://",
+        "EmailThankYou": "false",
+        "ExternalCSS": null,
+        "Footer": "",
+        "Header": "",
+        "HighlightQuestions": "off",
+        "InactiveMessage": "",
+        "InactiveMessageLibrary": "",
+        "InactiveSurvey": "DefaultMessage",
+        "NewScoring": 1,
+        "NextButton": " → ",
+        "NoIndex": "Yes",
+        "PageTransition": "None",
+        "PartialData": "+1 week",
+        "PartialDataCloseAfter": "LastActivity",
+        "Password": "",
+        "PasswordProtection": "No",
+        "PreviousButton": " ← ",
+        "ProgressBarDisplay": "None",
+        "ProtectSelectionIds": true,
+        "QuestionsPerPage": "",
+        "RecaptchaV3": "false",
+        "RefererCheck": "No",
+        "RefererURL": "http://",
+        "RelevantID": "false",
+        "ResponseSummary": "No",
+        "SaveAndContinue": "true",
+        "SecureResponseFiles": "true",
+        "ShowExportTags": "false",
+        "Skin": "xmskin",
+        "SkinLibrary": "Qualtrics",
+        "SkinType": "MQ",
+        "SurveyExpiration": null,
+        "SurveyMetaDescription": "Qualtrics sophisticated online survey software solutions make creating online surveys easy. Learn more about Research Suite and get a free account today.",
+        "SurveyName": "MJ Test 1",
+        "SurveyProtection": "PublicSurvey",
+        "SurveyTermination": "DefaultMessage",
+        "SurveyTitle": "Online Survey Software | Qualtrics Survey Solutions",
+        "ThankYouEmailMessage": null,
+        "ThankYouEmailMessageLibrary": null,
+        "ValidateMessage": "false",
+        "ValidationMessage": null,
+        "ValidationMessageLibrary": null,
+        "footerMid": "",
+        "headerMid": "",
+        "libraryId": "",
+        "nextButtonMid": "",
+        "previousButtonMid": "",
+        "BallotBoxStuffingPreventionBehavior": "DefaultMessage",
+        "BallotBoxStuffingPreventionMessage": null,
+        "BallotBoxStuffingPreventionMessageLibrary": null,
+        "BallotBoxStuffingPreventionURL": null,
+        "ConfirmStart": false,
+        "AutoConfirmStart": false,
+        "RelevantIDLockoutPeriod": "+30 days",
+        "UseCustomSurveyLinkCompletedMessage": null,
+        "SurveyLinkCompletedMessage": null,
+        "SurveyLinkCompletedMessageLibrary": null,
+        "PartialDeletion": null
+      }
+    },
+    {
+      "SurveyID": "SV_2612o6mFSHcFojk",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID42",
+      "SecondaryAttribute": "How likely are you to recommend Foundry512 to a friend or colleague?",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "ChoiceOrder": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
+        "Choices": [
+          {
+            "Display": "0"
+          },
+          {
+            "Display": "1"
+          },
+          {
+            "Display": "2"
+          },
+          {
+            "Display": "3"
+          },
+          {
+            "Display": "4"
+          },
+          {
+            "Display": "5"
+          },
+          {
+            "Display": "6"
+          },
+          {
+            "Display": "7"
+          },
+          {
+            "Display": "8"
+          },
+          {
+            "Display": "9"
+          },
+          {
+            "Display": "10"
+          }
+        ],
+        "ColumnLabels": [],
+        "Configuration": {
+          "QuestionDescriptionOption": "UseText"
+        },
+        "DataExportTag": "Q42",
+        "DataVisibility": {
+          "Hidden": false,
+          "Private": false
+        },
+        "DefaultChoices": false,
+        "GradingData": [],
+        "Language": [],
+        "NextAnswerId": 1,
+        "NextChoiceId": 11,
+        "QuestionDescription": "How likely are you to recommend Foundry512 to a friend or colleague?",
+        "QuestionID": "QID42",
+        "QuestionText": "<div>How likely are you to recommend Foundry512 to a friend or colleague?</div>",
+        "QuestionType": "MC",
+        "Selector": "NPS",
+        "Validation": {
+          "Settings": {
+            "ForceResponse": "ON",
+            "ForceResponseType": "ON",
+            "Type": "None"
+          }
+        }
+      }
+    },
+    {
+      "SurveyID": "SV_2612o6mFSHcFojk",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID46",
+      "SecondaryAttribute": "How satisfied are you with your experience in the following category with Foundry512? ...",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "ChoiceOrder": ["5", "4", "3", "2", "1"],
+        "Choices": {
+          "1": {
+            "Display": "Extremely dissatisfied"
+          },
+          "2": {
+            "Display": "Moderately dissatisfied"
+          },
+          "3": {
+            "Display": "Neither satisfied nor dissatisfied"
+          },
+          "4": {
+            "Display": "Moderately satisfied"
+          },
+          "5": {
+            "Display": "Extremely satisfied"
+          }
+        },
+        "Configuration": {
+          "QuestionDescriptionOption": "UseText",
+          "TextPosition": "inline"
+        },
+        "DataExportTag": "Q46",
+        "DataVisibility": {
+          "Hidden": false,
+          "Private": false
+        },
+        "DefaultChoices": false,
+        "GradingData": [],
+        "Language": [],
+        "NextAnswerId": 6,
+        "NextChoiceId": 8,
+        "QuestionDescription": "How satisfied are you with your experience in the following category with Foundry512? ...",
+        "QuestionID": "QID46",
+        "QuestionText": "<div>How satisfied are you with your experience in the following category with Foundry512?</div><div><br></div><div><b>Product quality</b></div>",
+        "QuestionType": "MC",
+        "Selector": "SAVR",
+        "SubSelector": "TX",
+        "Validation": {
+          "Settings": {
+            "ForceResponse": "ON",
+            "ForceResponseType": "ON",
+            "Type": "None"
+          }
+        }
+      }
+    },
+    {
+      "SurveyID": "SV_2612o6mFSHcFojk",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID48",
+      "SecondaryAttribute": "How satisfied are you with your experience in the following category with Foundry512? ...",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "ChoiceOrder": ["5", "4", "3", "2", "1"],
+        "Choices": {
+          "1": {
+            "Display": "Extremely dissatisfied"
+          },
+          "2": {
+            "Display": "Moderately dissatisfied"
+          },
+          "3": {
+            "Display": "Neither satisfied nor dissatisfied"
+          },
+          "4": {
+            "Display": "Moderately satisfied"
+          },
+          "5": {
+            "Display": "Extremely satisfied"
+          }
+        },
+        "Configuration": {
+          "QuestionDescriptionOption": "UseText",
+          "TextPosition": "inline"
+        },
+        "DataExportTag": "Q48",
+        "DataVisibility": {
+          "Hidden": false,
+          "Private": false
+        },
+        "DefaultChoices": false,
+        "GradingData": [],
+        "Language": [],
+        "NextAnswerId": 6,
+        "NextChoiceId": 8,
+        "QuestionDescription": "How satisfied are you with your experience in the following category with Foundry512? ...",
+        "QuestionID": "QID48",
+        "QuestionText": "<div>How satisfied are you with your experience in the following category with Foundry512?</div><div><br></div><div><b>Customer support</b></div>",
+        "QuestionType": "MC",
+        "Selector": "SAVR",
+        "SubSelector": "TX",
+        "Validation": {
+          "Settings": {
+            "ForceResponse": "ON",
+            "ForceResponseType": "ON",
+            "Type": "None"
+          }
+        }
+      }
+    },
+    {
+      "SurveyID": "SV_2612o6mFSHcFojk",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID50",
+      "SecondaryAttribute": "How satisfied are you with your experience in the following category with Foundry512? ...",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "ChoiceOrder": ["5", "4", "3", "2", "1"],
+        "Choices": {
+          "1": {
+            "Display": "Extremely dissatisfied"
+          },
+          "2": {
+            "Display": "Moderately dissatisfied"
+          },
+          "3": {
+            "Display": "Neither satisfied nor dissatisfied"
+          },
+          "4": {
+            "Display": "Moderately satisfied"
+          },
+          "5": {
+            "Display": "Extremely satisfied"
+          }
+        },
+        "Configuration": {
+          "QuestionDescriptionOption": "UseText",
+          "TextPosition": "inline"
+        },
+        "DataExportTag": "Q50",
+        "DataVisibility": {
+          "Hidden": false,
+          "Private": false
+        },
+        "DefaultChoices": false,
+        "GradingData": [],
+        "Language": [],
+        "NextAnswerId": 6,
+        "NextChoiceId": 8,
+        "QuestionDescription": "How satisfied are you with your experience in the following category with Foundry512? ...",
+        "QuestionID": "QID50",
+        "QuestionText": "<div>How satisfied are you with your experience in the following category with Foundry512?</div><div><br></div><div><b>Brand reputation</b></div>",
+        "QuestionType": "MC",
+        "Selector": "SAVR",
+        "SubSelector": "TX",
+        "Validation": {
+          "Settings": {
+            "ForceResponse": "ON",
+            "ForceResponseType": "ON",
+            "Type": "None"
+          }
+        }
+      }
+    },
+    {
+      "SurveyID": "SV_2612o6mFSHcFojk",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID52",
+      "SecondaryAttribute": "How satisfied are you with your experience in the following category with Foundry512? ...",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "ChoiceOrder": ["5", "4", "3", "2", "1"],
+        "Choices": {
+          "1": {
+            "Display": "Extremely dissatisfied"
+          },
+          "2": {
+            "Display": "Moderately dissatisfied"
+          },
+          "3": {
+            "Display": "Neither satisfied nor dissatisfied"
+          },
+          "4": {
+            "Display": "Moderately satisfied"
+          },
+          "5": {
+            "Display": "Extremely satisfied"
+          }
+        },
+        "Configuration": {
+          "QuestionDescriptionOption": "UseText",
+          "TextPosition": "inline"
+        },
+        "DataExportTag": "Q52",
+        "DataVisibility": {
+          "Hidden": false,
+          "Private": false
+        },
+        "DefaultChoices": false,
+        "GradingData": [],
+        "Language": [],
+        "NextAnswerId": 6,
+        "NextChoiceId": 8,
+        "QuestionDescription": "How satisfied are you with your experience in the following category with Foundry512? ...",
+        "QuestionID": "QID52",
+        "QuestionText": "<div>How satisfied are you with your experience in the following category with Foundry512?</div><div><br></div><div><b>Purchasing experience</b></div>",
+        "QuestionType": "MC",
+        "Selector": "SAVR",
+        "SubSelector": "TX",
+        "Validation": {
+          "Settings": {
+            "ForceResponse": "ON",
+            "ForceResponseType": "ON",
+            "Type": "None"
+          }
+        }
+      }
+    },
+    {
+      "SurveyID": "SV_2612o6mFSHcFojk",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID54",
+      "SecondaryAttribute": "How satisfied are you with your experience in the following category with Foundry512? ...",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "ChoiceOrder": ["5", "4", "3", "2", "1"],
+        "Choices": {
+          "1": {
+            "Display": "Extremely dissatisfied"
+          },
+          "2": {
+            "Display": "Moderately dissatisfied"
+          },
+          "3": {
+            "Display": "Neither satisfied nor dissatisfied"
+          },
+          "4": {
+            "Display": "Moderately satisfied"
+          },
+          "5": {
+            "Display": "Extremely satisfied"
+          }
+        },
+        "Configuration": {
+          "QuestionDescriptionOption": "UseText",
+          "TextPosition": "inline"
+        },
+        "DataExportTag": "Q54",
+        "DataVisibility": {
+          "Hidden": false,
+          "Private": false
+        },
+        "DefaultChoices": false,
+        "GradingData": [],
+        "Language": [],
+        "NextAnswerId": 6,
+        "NextChoiceId": 8,
+        "QuestionDescription": "How satisfied are you with your experience in the following category with Foundry512? ...",
+        "QuestionID": "QID54",
+        "QuestionText": "<div>How satisfied are you with your experience in the following category with Foundry512?</div><div><br></div><div><b>Interaction(s) with employees</b></div>",
+        "QuestionType": "MC",
+        "Selector": "SAVR",
+        "SubSelector": "TX",
+        "Validation": {
+          "Settings": {
+            "ForceResponse": "ON",
+            "ForceResponseType": "ON",
+            "Type": "None"
+          }
+        }
+      }
+    },
+    {
+      "SurveyID": "SV_2612o6mFSHcFojk",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID45",
+      "SecondaryAttribute": "Industry: Software How important is the following category to your experience with the indust...",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "ChoiceOrder": ["5", "4", "3", "2", "1"],
+        "Choices": {
+          "1": {
+            "Display": "Not at all important"
+          },
+          "2": {
+            "Display": "Slightly important"
+          },
+          "3": {
+            "Display": "Moderately important"
+          },
+          "4": {
+            "Display": "Very important"
+          },
+          "5": {
+            "Display": "Extremely important"
+          }
+        },
+        "Configuration": {
+          "QuestionDescriptionOption": "UseText",
+          "TextPosition": "inline"
+        },
+        "DataExportTag": "Q45",
+        "DataVisibility": {
+          "Hidden": false,
+          "Private": false
+        },
+        "DefaultChoices": false,
+        "GradingData": [],
+        "Language": [],
+        "NextAnswerId": 6,
+        "NextChoiceId": 8,
+        "QuestionDescription": "Industry: Software How important is the following category to your experience with the indust...",
+        "QuestionID": "QID45",
+        "QuestionText": "<div>Industry: Software</div><div><br></div>How important is the following category to your experience with the industry listed above?<div><br></div><div><b>Product quality</b></div>",
+        "QuestionType": "MC",
+        "Selector": "SAVR",
+        "SubSelector": "TX",
+        "Validation": {
+          "Settings": {
+            "ForceResponse": "ON",
+            "ForceResponseType": "ON",
+            "Type": "None"
+          }
+        }
+      }
+    },
+    {
+      "SurveyID": "SV_2612o6mFSHcFojk",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID47",
+      "SecondaryAttribute": "Industry: Software How important is the following category to your experience with the indust...",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "ChoiceOrder": ["5", "4", "3", "2", "1"],
+        "Choices": {
+          "1": {
+            "Display": "Not at all important"
+          },
+          "2": {
+            "Display": "Slightly important"
+          },
+          "3": {
+            "Display": "Moderately important"
+          },
+          "4": {
+            "Display": "Very important"
+          },
+          "5": {
+            "Display": "Extremely important"
+          }
+        },
+        "Configuration": {
+          "QuestionDescriptionOption": "UseText",
+          "TextPosition": "inline"
+        },
+        "DataExportTag": "Q47",
+        "DataVisibility": {
+          "Hidden": false,
+          "Private": false
+        },
+        "DefaultChoices": false,
+        "GradingData": [],
+        "Language": [],
+        "NextAnswerId": 6,
+        "NextChoiceId": 8,
+        "QuestionDescription": "Industry: Software How important is the following category to your experience with the indust...",
+        "QuestionID": "QID47",
+        "QuestionText": "<div>Industry: Software</div><div><br></div>How important is the following category to your experience with the industry listed above?<div><br></div><div><b>Customer support</b></div>",
+        "QuestionType": "MC",
+        "Selector": "SAVR",
+        "SubSelector": "TX",
+        "Validation": {
+          "Settings": {
+            "ForceResponse": "ON",
+            "ForceResponseType": "ON",
+            "Type": "None"
+          }
+        }
+      }
+    },
+    {
+      "SurveyID": "SV_2612o6mFSHcFojk",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID49",
+      "SecondaryAttribute": "Industry: Software How important is the following category to your experience with the indust...",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "ChoiceOrder": ["5", "4", "3", "2", "1"],
+        "Choices": {
+          "1": {
+            "Display": "Not at all important"
+          },
+          "2": {
+            "Display": "Slightly important"
+          },
+          "3": {
+            "Display": "Moderately important"
+          },
+          "4": {
+            "Display": "Very important"
+          },
+          "5": {
+            "Display": "Extremely important"
+          }
+        },
+        "Configuration": {
+          "QuestionDescriptionOption": "UseText",
+          "TextPosition": "inline"
+        },
+        "DataExportTag": "Q49",
+        "DataVisibility": {
+          "Hidden": false,
+          "Private": false
+        },
+        "DefaultChoices": false,
+        "GradingData": [],
+        "Language": [],
+        "NextAnswerId": 6,
+        "NextChoiceId": 8,
+        "QuestionDescription": "Industry: Software How important is the following category to your experience with the indust...",
+        "QuestionID": "QID49",
+        "QuestionText": "<div>Industry: Software</div><div><br></div>How important is the following category to your experience with the industry listed above?<div><br></div><div><b>Brand reputation</b></div>",
+        "QuestionType": "MC",
+        "Selector": "SAVR",
+        "SubSelector": "TX",
+        "Validation": {
+          "Settings": {
+            "ForceResponse": "ON",
+            "ForceResponseType": "ON",
+            "Type": "None"
+          }
+        }
+      }
+    },
+    {
+      "SurveyID": "SV_2612o6mFSHcFojk",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID51",
+      "SecondaryAttribute": "Industry: Software How important is the following category to your experience with the indust...",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "ChoiceOrder": ["5", "4", "3", "2", "1"],
+        "Choices": {
+          "1": {
+            "Display": "Not at all important"
+          },
+          "2": {
+            "Display": "Slightly important"
+          },
+          "3": {
+            "Display": "Moderately important"
+          },
+          "4": {
+            "Display": "Very important"
+          },
+          "5": {
+            "Display": "Extremely important"
+          }
+        },
+        "Configuration": {
+          "QuestionDescriptionOption": "UseText",
+          "TextPosition": "inline"
+        },
+        "DataExportTag": "Q51",
+        "DataVisibility": {
+          "Hidden": false,
+          "Private": false
+        },
+        "DefaultChoices": false,
+        "GradingData": [],
+        "Language": [],
+        "NextAnswerId": 6,
+        "NextChoiceId": 8,
+        "QuestionDescription": "Industry: Software How important is the following category to your experience with the indust...",
+        "QuestionID": "QID51",
+        "QuestionText": "<div>Industry: Software</div><div><br></div>How important is the following category to your experience with the industry listed above?<div><br></div><div><b>Purchasing experience</b></div>",
+        "QuestionType": "MC",
+        "Selector": "SAVR",
+        "SubSelector": "TX",
+        "Validation": {
+          "Settings": {
+            "ForceResponse": "ON",
+            "ForceResponseType": "ON",
+            "Type": "None"
+          }
+        }
+      }
+    },
+    {
+      "SurveyID": "SV_2612o6mFSHcFojk",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID53",
+      "SecondaryAttribute": "Industry: Software How important is the following category to your experience with the indust...",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "ChoiceOrder": ["5", "4", "3", "2", "1"],
+        "Choices": {
+          "1": {
+            "Display": "Not at all important"
+          },
+          "2": {
+            "Display": "Slightly important"
+          },
+          "3": {
+            "Display": "Moderately important"
+          },
+          "4": {
+            "Display": "Very important"
+          },
+          "5": {
+            "Display": "Extremely important"
+          }
+        },
+        "Configuration": {
+          "QuestionDescriptionOption": "UseText",
+          "TextPosition": "inline"
+        },
+        "DataExportTag": "Q53",
+        "DataVisibility": {
+          "Hidden": false,
+          "Private": false
+        },
+        "DefaultChoices": false,
+        "GradingData": [],
+        "Language": [],
+        "NextAnswerId": 6,
+        "NextChoiceId": 8,
+        "QuestionDescription": "Industry: Software How important is the following category to your experience with the indust...",
+        "QuestionID": "QID53",
+        "QuestionText": "<div>Industry: Software</div><div><br></div>How important is the following category to your experience with the industry listed above?<div><br></div><div><b>Interaction(s) with employees</b></div>",
+        "QuestionType": "MC",
+        "Selector": "SAVR",
+        "SubSelector": "TX",
+        "Validation": {
+          "Settings": {
+            "ForceResponse": "ON",
+            "ForceResponseType": "ON",
+            "Type": "None"
+          }
+        }
+      }
+    },
+    {
+      "SurveyID": "SV_2612o6mFSHcFojk",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID36",
+      "SecondaryAttribute": "Is there anything specific that Foundry512 can do to improve your experience?",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "Configuration": {
+          "AllowFreeResponse": "false",
+          "QuestionDescriptionOption": "UseText"
+        },
+        "DataExportTag": "Q36",
+        "DataVisibility": {
+          "Hidden": false,
+          "Private": false
+        },
+        "DefaultChoices": false,
+        "GradingData": [],
+        "Language": [],
+        "NextAnswerId": 1,
+        "NextChoiceId": 4,
+        "QuestionDescription": "Is there anything specific that Foundry512 can do to improve your experience?",
+        "QuestionID": "QID36",
+        "QuestionText": "Is there anything specific that Foundry512 can do to improve your experience?",
+        "QuestionType": "TE",
+        "Selector": "ESTB",
+        "Validation": {
+          "Settings": {
+            "ForceResponse": "OFF",
+            "ForceResponseType": "ON",
+            "Type": "None"
+          }
+        }
+      }
+    },
+    {
+      "SurveyID": "SV_2612o6mFSHcFojk",
+      "Element": "PROJ",
+      "PrimaryAttribute": "CX",
+      "SecondaryAttribute": "RelationalNPS",
+      "TertiaryAttribute": "1.1.0",
+      "Payload": {
+        "ProjectCategory": "CX",
+        "SchemaVersion": "1.1.0"
+      }
+    },
+    {
+      "SurveyID": "SV_2612o6mFSHcFojk",
+      "Element": "SQ",
+      "PrimaryAttribute": "QID43",
+      "SecondaryAttribute": "What are the primary reasons for the ${q://QID42/ChoiceGroup/SelectedChoices} score you gave us?",
+      "TertiaryAttribute": null,
+      "Payload": {
+        "Configuration": {
+          "QuestionDescriptionOption": "UseText"
+        },
+        "DataExportTag": "Q43",
+        "DataVisibility": {
+          "Hidden": false,
+          "Private": false
+        },
+        "DefaultChoices": false,
+        "GradingData": [],
+        "Language": [],
+        "NextAnswerId": 1,
+        "NextChoiceId": 4,
+        "QuestionDescription": "What are the primary reasons for the ${q://QID42/ChoiceGroup/SelectedChoices} score you gave us?",
+        "QuestionID": "QID43",
+        "QuestionText": "What are the primary reasons for the ${q://QID42/ChoiceGroup/SelectedChoices} score you gave us?",
+        "QuestionType": "TE",
+        "Selector": "ESTB",
+        "Validation": {
+          "Settings": {
+            "ForceResponse": "OFF",
+            "ForceResponseType": "ON",
+            "Type": "None"
+          }
+        }
+      }
+    }
+  ]
+}

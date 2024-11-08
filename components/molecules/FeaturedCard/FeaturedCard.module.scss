@@ -1,0 +1,56 @@
+.root {
+  @apply relative h-full w-full;
+}
+
+.wrap {
+  @apply flex flex-col justify-between w-full h-full;
+}
+
+.top {
+  @apply p-3 h-60;
+}
+
+.topOverwrite {
+  @apply p-3 h-52;
+
+  /*
+  @screen sm {
+    @apply p-3 h-32;
+  }*/
+}
+@media only screen and (max-width: 600px){
+  .topOverwrite {
+    @apply p-3 h-32;
+    margin-top: -10px;
+  }
+
+  .homeHero img{
+    object-fit: contain!important;
+    object-position: top!important;
+    }
+}
+
+
+.tags {
+  @apply flex flex-wrap gap-2;
+}
+
+.title {
+  @apply block text-white font-normal text-2xl mt-3 mb-6;
+}
+
+.bottom {
+  @apply p-3 md:p-5;
+}
+
+.meta {
+  @apply flex flex-col md:flex-row justify-between;
+}
+
+@media only screen and (min-width: 600px)
+{
+  .homeHero img{
+    object-position: top!important;
+    object-fit: none!important;
+    }
+}

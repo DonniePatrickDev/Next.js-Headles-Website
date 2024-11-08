@@ -1,0 +1,17 @@
+.cardRoot {
+  @apply border-b border-b-gray border-opacity-30 mb-5;
+}
+
+.cardWrap {
+  @apply shadow-md md:shadow-none hover:shadow-md mb-6 overflow-hidden rounded-md;
+}
+
+.input {
+  @apply md:w-64 block py-3 px-6 placeholder:text-base text-base border border-purple rounded-full focus:bg-gray-200 mx-1 mb-2;
+
+  background-color: #dfe6f0;
+}
+
+.submit {
+  @apply bg-purple text-white hover:bg-purple-dark text-base py-3 px-12 rounded-full cursor-pointer mx-1 mb-2;
+}

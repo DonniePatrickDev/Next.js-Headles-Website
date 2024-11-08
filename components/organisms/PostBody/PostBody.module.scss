@@ -1,0 +1,29 @@
+.root {
+  @apply container my-12;
+}
+
+.inner {
+  @apply flex flex-col md:flex-row gap-8 lg:gap-16 w-full;
+}
+
+.title {
+  @apply text-xl md:text-2xl font-bold my-6;
+}
+
+.content {
+  @apply text-lg md:text-xl font-normal my-6;
+
+  * {
+    @apply mb-4;
+  }
+}
+
+.form {
+  @apply p-8;
+}
+
+.formInner {
+  @apply shadow-lg mx-auto;
+
+  max-width: 560px;
+}

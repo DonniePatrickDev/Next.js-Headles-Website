@@ -1,0 +1,7 @@
+.wide,
+.thin {
+  .wrap {
+    max-width: 970px;
+    @apply relative text-center mx-auto flex justify-center;
+  }
+}

@@ -1,0 +1,31 @@
+.root {
+  @apply relative h-full w-full;
+}
+
+.wrap {
+  @apply flex flex-row justify-between w-full h-full gap-4;
+}
+
+.image {
+  @apply relative w-1/4 flex-shrink-0 flex justify-center items-center;
+}
+
+.inner {
+  @apply w-full;
+}
+
+.tags {
+  @apply flex flex-wrap gap-2;
+}
+
+.title {
+  @apply block font-semibold text-lg mt-2 mb-4;
+}
+
+.content {
+  @apply text-base mb-8;
+}
+
+.bottom {
+  @apply flex flex-col md:flex-row justify-between;
+}

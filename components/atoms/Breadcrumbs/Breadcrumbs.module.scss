@@ -1,0 +1,31 @@
+.root {
+  @apply container mb-8;
+}
+
+.inner {
+  @apply pt-4;
+}
+
+ul.breadcrumbs {
+  @apply flex flex-wrap;
+
+  & li {
+    @apply inline-flex items-center text-base font-semibold p-0 text-purple-dark;
+
+    & .link {
+      @apply inline-flex items-center mr-2;
+
+      & .text {
+        @apply ml-1.5;
+
+        &.white {
+          @apply text-white;
+        }
+      }
+    }
+
+    & .sep {
+      @apply inline-block px-1 font-normal;
+    }
+  }
+}

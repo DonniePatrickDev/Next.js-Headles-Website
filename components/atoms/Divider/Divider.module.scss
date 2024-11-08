@@ -1,0 +1,19 @@
+.divider {
+  @apply border-t opacity-30 my-4;
+
+  &.purple {
+    @apply border-t-purple;
+  }
+
+  &.dark {
+    @apply border-t-dark;
+  }
+
+  &.white {
+    @apply border-gray-100;
+  }
+
+  &.thick {
+    @apply border-t-2;
+  }
+}

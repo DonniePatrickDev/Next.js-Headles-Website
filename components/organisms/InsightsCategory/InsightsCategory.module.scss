@@ -1,0 +1,11 @@
+.title {
+  @apply text-purple-dark text-xl font-bold uppercase md:ml-4 mb-4;
+}
+
+.cardWrap {
+  @apply border-b border-b-gray border-opacity-30 mb-5;
+}
+
+.card {
+  @apply shadow-md md:shadow-none hover:shadow-md mb-6 overflow-hidden rounded-md p-4;
+}

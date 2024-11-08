@@ -1,0 +1,9 @@
+.card {
+  @apply shrink-0;
+
+  width: calc(33.3333% - 1em);
+
+  @media (max-width: 1024px) {
+    width: 100%;
+  }
+}

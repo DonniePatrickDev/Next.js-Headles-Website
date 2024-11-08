@@ -1,0 +1,7 @@
+.wrap {
+  @apply container;
+}
+
+.header {
+  @apply flex flex-row justify-between items-center py-2;
+}

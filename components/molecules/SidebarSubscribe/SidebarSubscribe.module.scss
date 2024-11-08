@@ -1,0 +1,13 @@
+.sidebar {
+  @apply mb-20 px-4;
+}
+
+.sidebarTitle {
+  @apply text-pink text-xl font-bold uppercase mb-4;
+}
+
+.sidebarInner {
+  @apply p-6;
+
+  background: linear-gradient(180deg, #5a0ebb 0%, #891f9a 100%);
+}

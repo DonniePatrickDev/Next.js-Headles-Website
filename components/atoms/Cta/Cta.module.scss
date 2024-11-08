@@ -1,0 +1,45 @@
+.root {
+  @apply flex flex-row items-center;
+
+  &.purple {
+    .text {
+      @apply text-purple;
+    }
+  }
+
+  &.dark {
+    .text {
+      @apply text-dark hover:text-purple;
+    }
+  }
+
+  &.white {
+    .text {
+      @apply text-white;
+    }
+  }
+
+  .text {
+    @apply mr-4;
+  }
+
+  &.fullWidth {
+    @apply w-full justify-between;
+  }
+
+  &.hoverIcon {
+    .icon {
+      @apply hidden;
+    }
+
+    &:hover {
+      .icon {
+        @apply block;
+      }
+    }
+  }
+}
+
+.icon {
+  @apply flex-shrink-0;
+}

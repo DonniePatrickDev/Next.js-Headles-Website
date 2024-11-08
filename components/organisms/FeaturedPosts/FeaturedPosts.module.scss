@@ -1,0 +1,11 @@
+.root {
+  @apply container my-6;
+}
+
+.inner {
+  @apply flex flex-col md:flex-row gap-8 pb-8;
+}
+
+.cardWrap {
+  @apply md:w-1/3 shadow-md;
+}

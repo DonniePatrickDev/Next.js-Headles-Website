@@ -1,0 +1,11 @@
+.root {
+  @apply px-6 md:px-16 py-8 bg-white shadow-lg -mb-20;
+}
+
+.title {
+  @apply text-black text-xl font-bold mb-4;
+}
+
+.input {
+  @apply border rounded-xl w-full py-6 px-4 text-sm placeholder:text-sm bg-white focus:bg-gray-100;
+}

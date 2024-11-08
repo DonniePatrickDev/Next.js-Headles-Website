@@ -1,0 +1,11 @@
+.tag {
+  @apply rounded-full text-sm font-normal text-white uppercase;
+
+  &.primary {
+    @apply px-4 py-0.5 bg-purple;
+  }
+
+  &.secondary {
+    @apply px-0 py-0.5 bg-none;
+  }
+}

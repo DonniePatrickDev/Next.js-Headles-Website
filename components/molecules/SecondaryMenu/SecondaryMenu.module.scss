@@ -1,0 +1,24 @@
+.background {
+  @apply bg-gray-300;
+}
+
+.wrap {
+  @apply container overflow-x-auto;
+}
+
+.inner {
+  @apply flex justify-between;
+  min-width: 736px;
+}
+
+.title {
+  @apply mr-2 md:mr-4 py-4 text-purple-dark font-semibold uppercase text-sm border-t-2 border-gray-300;
+}
+
+.link {
+  @apply mr-2 md:mr-4 py-4 text-purple-dark font-semibold text-sm border-t-2 border-gray-300;
+
+  &:hover {
+    @apply border-purple-dark;
+  }
+}

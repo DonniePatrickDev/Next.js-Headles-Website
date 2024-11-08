@@ -1,0 +1,29 @@
+.tabs {
+  @apply grid grid-cols-3 gap-2 border-b border-purple py-2 border-opacity-50;
+}
+
+.tab {
+  @apply p-2 flex flex-col lg:flex-row items-center text-gray;
+
+  &.active {
+    @apply text-purple-dark font-semibold;
+  }
+
+  .cicle {
+    @apply flex items-center justify-center w-10 h-10 border rounded-full;
+  }
+
+  .text {
+    @apply px-3 flex items-center;
+  }
+}
+
+.body {
+  @apply py-8;
+
+  min-height: 50vh;
+}
+
+.nav {
+  @apply flex justify-end;
+}

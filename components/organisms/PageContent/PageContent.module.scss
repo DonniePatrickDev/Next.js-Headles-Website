@@ -1,0 +1,13 @@
+.white {
+  @apply text-white;
+}
+
+.title {
+  @apply font-bold mb-4;
+
+  font-size: 24px;
+}
+
+.text {
+  @apply text-lg font-normal mb-6;
+}

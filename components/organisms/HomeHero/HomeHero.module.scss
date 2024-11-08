@@ -1,0 +1,43 @@
+.root {
+  @apply container my-16;
+}
+
+.inner {
+  @apply flex flex-col md:flex-row gap-6;
+}
+
+.left {
+  @apply w-full md:w-1/2;
+}
+
+.right {
+  @apply w-full md:w-1/2 flex flex-col justify-between;
+}
+
+.card {
+  @apply w-1/2 px-2 md:px-8 py-6 bg-white shadow-md flex flex-col justify-between;
+
+  &:hover {
+    @apply bg-purple-light;
+
+    .pathIcon {
+      @apply block;
+    }
+  }
+
+  .pathIcon {
+    @apply hidden;
+  }
+}
+
+.articleWrap {
+  @apply flex gap-4 items-center mb-1;
+
+  &:hover {
+    @apply bg-purple-light;
+  }
+}
+
+.tagWrap {
+  @apply flex flex-wrap gap-2 mb-32;
+}

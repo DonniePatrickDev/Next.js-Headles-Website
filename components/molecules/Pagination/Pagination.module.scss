@@ -1,0 +1,27 @@
+.container {
+  @apply flex items-center justify-center gap-2 list-none;
+
+  .item {
+    @apply flex justify-center items-center w-8 h-8 text-purple-dark box-border border border-white rounded font-bold;
+
+    &.dots:hover {
+      @apply cursor-default;
+    }
+
+    &:hover {
+      @apply border-purple bg-pink-100 cursor-pointer;
+    }
+
+    .arrow {
+      @apply bg-purple-light;
+    }
+
+    &.disabled {
+      @apply pointer-events-none cursor-default opacity-40;
+    }
+
+    &.selected {
+      @apply border-purple bg-pink-100;
+    }
+  }
+}

@@ -1,0 +1,7 @@
+.root {
+  @apply container my-16;
+}
+
+.inner {
+  @apply flex flex-col md:flex-row gap-12;
+}

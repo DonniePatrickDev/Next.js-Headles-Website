@@ -1,0 +1,30 @@
+@import './_typography.scss';
+@import './_hubspot.scss';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+x #page-content {
+  min-height: 50vh;
+}
+
+#portal {
+  width: 100%;
+
+  @media (min-width: 1280px) {
+    width: calc(100% - 320px);
+  }
+}
+
+.svc-creator__banner {
+  @apply hidden;
+}
+
+.svc-json-editor-tab__content-area {
+  min-height: 24em;
+}
+
+.accordion-button::after {
+  background-image: url(https://dhix.dhinsights.org/wp-content/uploads/2022/04/arrow-down.svg);
+}

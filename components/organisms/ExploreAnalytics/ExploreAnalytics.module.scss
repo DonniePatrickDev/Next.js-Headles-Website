@@ -1,0 +1,19 @@
+.root {
+  @apply container my-8;
+}
+
+.card {
+  @apply w-full md:w-1/3 shadow-md;
+
+  &:hover {
+    @apply bg-purple-light;
+
+    .pathIcon {
+      @apply block;
+    }
+  }
+
+  .pathIcon {
+    @apply hidden;
+  }
+}
